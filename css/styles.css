@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    font-family: "Winky Sans", sans-serif;
+}
+.navbar-brand img {
+    width: 50px;
+}
+
+.bg-violet{
+    background-color: #fff !important;
+    border-bottom: 2px solid #007BFF;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.nav-link:hover{
+    color: #007BFF !important;
+    background-color: white;
+    transform: scale(1.01);
+    transition: .5s all;
+}
+
+#main-title{
+    text-align: center;
+    margin: 15px 0px 30px;
+}
+
+/* HOME */
+
+#contacts-table{
+    max-width: 800px;
+    margin: 0 auto;
+    border: 2px solid #007BFF;
+}
+
+#contacts-table thead{
+    color: #fff;
+    background-color: #007BFF;
+}
+
+.actions{
+    text-align: right;
+    width: 150px;
+    i{
+        font-size: 18px;
+        margin-right: 5px;
+    }
+}
+
+.col-id{
+    font-weight: bold;
+}
+
+.check-icon{
+    color: #1E7E34;
+}
+
+.edit-icon{
+    color: #007BFF;
+}
+
+.delete-btn{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.delete-icon{
+    color: #BD2130;
+}
+
+#empty-list-text{
+    text-align: center;
+}
+
+#msg{
+    color: #155724;
+    background-color: #D4EDDA;
+    border: 1px solid #C3E6CB;
+    padding: 10px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.text-acoes{
+    padding-right: 30px !important;
+    text-align: right;
+}
+
+.col-id{
+    font-weight: bold;
+}
+
+/* SHOW */
+#view-contact-container{
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 30px;
+    background-color: transparent;
+    border: 2px solid #007BFF;
+    border-radius: 10px;
+    p{
+        text-align: center;
+    }
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#back-link-container{
+    display: block;
+    width: 500px;    
+}
+
+#back-link{
+    border: 1px solid #007BFF;
+    color: #007BFF;
+    border: 1px solid #007BFF;
+    border-radius: 3px;
+    padding:  5px;
+}
+
+#back-link:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #007BFF;
+    transition: .5s all;
+}
+
+#create-form,
+#edit-form{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* MOBILE */
+
+@media (max-width: 480px) {
+    #home-link{
+        display: none;
+    }
+}
+
+/* DELETE */
+.delete-form{
+    display: inline-block;
+}
